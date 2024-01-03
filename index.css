@@ -42,3 +42,27 @@ button {
     font-family: 'Rubik', sans-serif;
 }
 
+ul {
+    list-style-type: none; /* Remove bullets */
+    padding: 0; /* Remove padding */
+    margin: 0; /* Remove margins */
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    gap: 10px 10px;
+ 
+    
+}
+
+ul li {
+    
+    background-color: #FFFDF8;
+    box-shadow: 0px 1px 4px rgba(0, 0, 0, 0.2);
+    width: min-content !important;
+    padding: 20px 20px;
+    flex: 1 1 auto;
+    border-radius: 5px;
+
+   
+}
+
